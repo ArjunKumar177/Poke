@@ -1,0 +1,56 @@
+h1 {
+  text-transform: capitalize;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+#home {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10vw;
+  position: relative;
+}
+#box {
+  background-color: #0001;
+  border-radius: 1em;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+#image {
+  width: 200px;
+  position: relative;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+  padding: 0.25em 0.75em;
+  border-radius: 1em;
+  background-color: #0001;
+  text-transform: capitalize;
+}
+li:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+  transition: 0.25s;
+}
+#box {
+  padding-bottom: 1rem;
+}
+#background {
+  background-image: url("../../background.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}

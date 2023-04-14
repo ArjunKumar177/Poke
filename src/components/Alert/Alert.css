@@ -1,0 +1,11 @@
+.alert-container {
+  background: #ff7a59;
+  opacity: 0.6;
+  padding: 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+  backdrop-filter: blur(5px);
+  display: inline-block;
+  overflow: hidden;
+  text-align: left;
+}
